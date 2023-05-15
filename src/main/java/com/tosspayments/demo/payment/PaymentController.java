@@ -28,7 +28,7 @@ public class PaymentController {
             @RequestParam(value = "amount") Integer amount,
             @RequestParam(value = "paymentKey") String paymentKey) throws Exception {
 
-        String secretKey = "test_sk_jkYG57Eba3GgM1wB0a53pWDOxmA1:";
+        String secretKey = "test_sk_O6BYq7GWPVvKa9LDollrNE5vbo1d:";
 
         Base64.Encoder encoder = Base64.getEncoder();
         byte[] encodedBytes = encoder.encode(secretKey.getBytes("UTF-8"));
